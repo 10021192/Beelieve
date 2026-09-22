@@ -1,0 +1,38 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        ".",
+        "assets",
+        "map"
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+        {
+            "id": 2,
+            "name": "EnemyTypes",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "moving",
+                "shooting"
+            ],
+            "valuesAsFlags": true
+        },
+        {
+            "id": 3,
+            "name": "MushroomTypes",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "tiny",
+                "tall"
+            ],
+            "valuesAsFlags": true
+        }
+    ]
+}
